@@ -1,0 +1,68 @@
+{
+  "name": "lnk-cli",
+  "version": "0.0.0",
+  "description": "Create links between files cross-platform",
+  "license": "MIT",
+  "repository": "schnittstabil/lnk-cli",
+  "keywords": [
+    "link",
+    "cross-platform",
+    "windows",
+    "symlink",
+    "linkSync",
+    "symlinkSync",
+    "hard",
+    "hardlink",
+    "soft",
+    "softlink",
+    "junction",
+    "directory",
+    "directory link",
+    "fs",
+    "file",
+    "ln",
+    "mklink",
+    "cli"
+  ],
+  "homepage": "https://github.com/schnittstabil/lnk-cli",
+  "bugs": {
+    "url": "https://github.com/schnittstabil/lnk-cli/issues"
+  },
+  "author": {
+    "name": "Michael Mayer",
+    "email": "michael@schnittstabil.de",
+    "url": "schnittstabil.de"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "meow": "^3.0",
+    "lnk": "^1.0",
+    "npmlog": "^1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16",
+    "coveralls": "^2.11",
+    "execa": "^0.4",
+    "mkdirp": "^0.5.1",
+    "nyc": "^8.3",
+    "pify": "^2.3.0",
+    "rewire": "^2.3",
+    "rimraf": "^2.0",
+    "uuid": "^2.0",
+    "xo": "^0.16"
+  },
+  "main": "index.js",
+  "bin": {
+    "lnk": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "xo && nyc ava",
+    "clean": "rimraf .nyc_output/ coverage/",
+    "coverage-html": "nyc ava && nyc report --reporter=html"
+  }
+}
