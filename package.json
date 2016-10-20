@@ -42,18 +42,17 @@
     "npmlog": "^1.0"
   },
   "devDependencies": {
-    "ava": "^0.16",
+    "ava": "*",
     "coveralls": "^2.11",
     "execa": "^0.4",
     "mkdirp": "^0.5.1",
     "nyc": "^8.3",
-    "pify": "^2.3.0",
+    "pify": "^2.3",
     "rewire": "^2.3",
     "rimraf": "^2.0",
     "uuid": "^2.0",
-    "xo": "^0.16"
+    "xo": "*"
   },
-  "main": "index.js",
   "bin": {
     "lnk": "./index.js"
   },
