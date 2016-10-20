@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "meow": "^3.0",
-    "lnk": "^1.0",
+    "lnk": "^1.0.1",
     "npmlog": "^1.0"
   },
   "devDependencies": {
