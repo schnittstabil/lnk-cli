@@ -37,7 +37,7 @@
     "node": ">=4"
   },
   "dependencies": {
-    "meow": "^3.0",
+    "meow": "^8.0.0",
     "lnk": "^1.0.1",
     "npmlog": "^1.0"
   },
